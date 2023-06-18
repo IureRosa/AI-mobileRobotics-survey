@@ -1,18 +1,16 @@
-# Exploring Reinforcement Learning Methods in Mobile Robotics: A Comprehensive Survey from Path Planning to Mapless Navigation
+# Sim-To-Real Transfer in Robotics Navigation: A Survey
 
 
 ### Abstract
 
-This survey offers a comprehensive exploration of the use of reinforcement learning (RL) techniques in mobile robotics, specifically focusing on path planning and navigation. It presents a chronological overview of RL and deep reinforcement learning (DRL) methods, showcasing their advancements and contributions to the field. The survey discusses the fundamentals of RL in mobile robotics, the evolution of path planning techniques, the emergence of mapless navigation, and the application of RL in safe navigation using autonomous vehicles. Through case studies and examples, it highlights the effectiveness of RL-based approaches. This survey serves as a valuable resource for researchers and practitioners, providing insights into the progression of RL techniques and their impact on mobile robotics.
+Deep Reinforcement Learning is an effective way to train robots to adapt to the real-world as it overcomes the problem of data source sample inefficiency and the cost of collection. It provides a potentially infinite source of data as the agent explores the environment and exploits the knowledge learned from its exploration. However, there is a remarkable degradation in performance observed in transitioning from a simulated environment to the real world. This warrants a deeper look into the efficient policy transfer methods which closes the gap between the simulation and the real world. This survey article summarizes sim-to-real transfer fundamentals and gives an overview of the main methods applied in this area: domain randomization, domain adaptation, imitation learning, meta-learning, and knowledge distillation. It also highlights some of the most recent works and their application scenarios. In the end, we look at the challenges and areas of future research in the domain.
 
 ## Folder Structure
 ~~~
 .
 ├── images               # paper images
-├── maplessNavigation    # mapless navigation paper references
-├── obstacleAvoidance    # obstacle avoidance paper references
-├── pathPlanning         # path planning paper references
-├── swarm                # swarms paper references
+├── references           # paper references
+├── INF620               # assigments of discipline
 ├── LICENSE
 ├── .gitignore
 └── README.md
